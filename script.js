@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.accouncer');
 
-//create the board
+//create the blank board
 
 let board = ['','','','','','','','','',];
 let currentPlayer = 'X';
