@@ -84,7 +84,11 @@ const isValidAction = (tile) => {
 
 //update the board after a completed game
 
-//have users switch after turn
+const updateBoard = (index) => {
+    currentPlayer;
+}
+
+//have users switch after taking a turn
 const changePlayer = () => {
     playerDisplay.classList.remove(`player${currentPlayer}`);
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
