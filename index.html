@@ -12,32 +12,39 @@
     <title>Galactic <Tic-Tac-Toe></Tic-Tac-Toe></title>
 </head>
 <body>
+    
+<div id="Space-img">
     <main class="background"></main>
-        <section class="title">
-            <h1>Galactic Tic-Tac-Toe</h1>
+    <section class="title">
+        <h1>Galactic Tic-Tac-Toe</h1>
+    </section>
+
+    <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+    </section>
+
+    <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </section>
+
+    <section class="display announcer hide"></section>
+
+    <section class="controls">
+        <button id="reset">Reset</button>
         </section>
-
-        <section class="display">
-                Player <span class="'display-player playerX">X</span>'s turn
-        </section>
-
-<section class="container">
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-    <div class="tile"></div>
-</section>
-
-<section class="display announcer hide"></section>
-
-<section class="controls">
-<button id="reset">Reset</button>
-</section>
-
+        <audio controls>
+            <source src="./assets/audio/WaterFluid.mp3" type="audio/mpeg">
+            Your browser does not support the HTML5 audio tag. Consider updating to a newer browser.
+        </audio>
+        
+</div>
 </body>
 </html>
