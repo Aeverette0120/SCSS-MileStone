@@ -8,8 +8,8 @@ font-weight: bolder;
 }
 
 
-.background {
-    background-color: black ;
+#Space-img {
+    background-image: url("./assets/images/OuterSpace.jpg") ;
     height:100vh;
     padding-top:1px;
 }
