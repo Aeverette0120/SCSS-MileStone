@@ -4,5 +4,11 @@ margin:0;
 font-family: 'Josefin Slab', serif;
 Color:Red;
 font-weight: bolder;
+
 }
 
+.background {
+    background-color: #845EC2 ;
+    height:100vh;
+    padding-top:1px;
+}
