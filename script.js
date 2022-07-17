@@ -29,6 +29,34 @@ const winningConditions = [
     [2, 4, 6],
 ];
 
+// add in winning consitions
+
+function handleResultValidation() {
+    let roundWon = false;
+    for (let i =0; i <= 7; i++) {
+        const winningCondition = winningConditions[i];
+        const a = board [winningCondition[0]];
+        const b = board [winningCondition[1]];
+        const c = board [winningCondition[2]];
+        if (a === '' || b === '' || c=== '') {
+            continue;
+        }
+        if (a === b && b === c) {
+            roundWon = true;
+            break;
+        }
+
+    }
+        if(roundWon) {
+            announcer(currentPlayer == 'X' ? PLAYERX_WON : PLAYERO_WON);
+            isGameActive = false;
+            return;
+        }
+
+        if (!board.includes(''))
+        announcer(TIE);
+}
+
 //have users switch after turn
 const changePlayer = () => {
     playerDisplay.classList.remove(`player${currentPlayer}`);
