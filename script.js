@@ -123,12 +123,13 @@ const resetBoard = () => {
     });
 }
 
-//add click functionally
+//add click functionality
 
 tiles.forEach( (tile, index) => {
     tile.addEventListener('click', () => userAction (tile, index));
 });
 
+//add reset click functionality
 
-
+resetButton.addEventListener('click', resetBoard);
 });
