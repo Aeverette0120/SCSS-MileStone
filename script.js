@@ -106,7 +106,22 @@ const userAction = (tile, index) => {
     }
 }
 
+// adding a reset function
 
+const resetBoard = () => {
+    board = ['','','','','','','','',''];
+    isGameActive.classList.add('hide');
+
+    if (currentPlayer === 'O') {
+        changePlayer();
+    }
+
+    tiles.forEach(tile => {
+        tile.innerText = '';
+        tile.classList.remove('playerX');
+        tile.classList.remove('playerO');
+    });
+}
 
 
 
