@@ -73,6 +73,17 @@ const announce = (type) => {
                     announcer.classList.remove('hide');
     };
 
+//adding Valid Actions
+
+const isValidAction = (tile) => {
+    if(tile.innerText === 'X' || tile.innerText === 'O') {
+        return false;
+    }
+    return true;
+}
+
+//update the board after a completed game
+
 //have users switch after turn
 const changePlayer = () => {
     playerDisplay.classList.remove(`player${currentPlayer}`);
