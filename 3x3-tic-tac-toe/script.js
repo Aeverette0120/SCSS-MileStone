@@ -101,19 +101,19 @@ const announce = (type) => {
                     if(currentPlayer === 'O') {
                         changePlayer();
                     }
-                }
+                
 
                     tiles.forEach(tile => {
                         tile.innerText = '';
                         tile.classList.remove('playerX');
                         tile.classList.remove('playerO');
                     });
-                
+                }
 
                 tiles.forEach( (tile, index) => {
                     tile.addEventListener('click', () => userAction (tile, index));
                 });
-                
+
 resetButton.addEventListener('click', resetBoard);
 });
 
