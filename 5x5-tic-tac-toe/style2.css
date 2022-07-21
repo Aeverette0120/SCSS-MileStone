@@ -41,6 +41,7 @@
         grid-auto-rows: 33% 33% 33% 33% 33%;
         max-width: 300px;
         margin-left: 36em;
+        height: 300px;
     }
     
     .tile {
