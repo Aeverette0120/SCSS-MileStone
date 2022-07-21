@@ -25,20 +25,22 @@ const winningConditions = [
     [1, 6, 11, 16, 21],
     [2, 7, 12, 17, 22],
     [3,  8, 13, 18, 23],
-    [4, 9, 14, 15, 24],
+    [4, 9, 14, 15, 24]
 ];
 
 function handleResultValidation() {
     let roundWon = false;
-    for (let i = 0; i <= 7; i++) {
+    for (let i = 0; i <= 11; i++) {
         const winCondition = winningConditions[i];
         const a = board[winCondition[0]];
         const b = board[winCondition[1]];
         const c = board[winCondition[2]];
-        if (a === '' || b === '' || c === '') {
+        const d = board[winCondition[3]];
+        const e = board[winCondition[4]];
+        if (a === '' || b === '' || c === '' || d === '' || e === '') {
             continue;
         }
-        if (a === b && b === c) {
+        if (a === b && b === c && c === d && d === e) {
             roundWon = true;
             break;
         }
