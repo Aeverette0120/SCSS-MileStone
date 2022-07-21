@@ -40,6 +40,7 @@
         grid-template-columns: 33% 33% 33% 33% 33%;
         grid-auto-rows: 33% 33% 33% 33% 33%;
         max-width: 300px;
+        margin-left: 36em;
     }
     
     .tile {
@@ -77,5 +78,5 @@
         font-size:20px;
         margin-left: 1em;
         cursor: pointer;
-        margin-top: 10em;
+        margin-top: 20em;
     };
