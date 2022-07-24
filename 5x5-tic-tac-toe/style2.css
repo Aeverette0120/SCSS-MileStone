@@ -41,9 +41,10 @@
         grid-template-columns: 33% 33% 33% 33% 33%;
         grid-auto-rows: 33% 33% 33% 33% 33%;
         max-width: 300px;
-        margin-left: 36em;
+        margin-left: 44em;
         height: 300px;
         margin-bottom: 5em;
+        
     }
     
     .tile {

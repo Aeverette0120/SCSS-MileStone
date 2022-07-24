@@ -34,7 +34,11 @@
     </section>
 
     <section class="controls">
-        <button id="reset">Reset</button>
+        <button id="reset" onclick="audio.play()">Reset</button>
+        <script type="text/javascript">
+            let audio = new Audio();
+            audio.src = "../assets/audio/Mouse-Click-00-c-FesliyanStudios.com.mp3";
+         </script>
         </section>
         <section class="display">
             Player <span class="display-player playerX">X</span>'s turn
@@ -71,7 +75,7 @@
     </section>
 
 
-        <audio controls loop>
+        <audio controls autoplay loop>
             <source src="../assets/audio/WaterFluid.mp3" type="audio/mpeg">
             Your browser does not support the HTML5 audio tag. Consider updating to a newer browser.
         </audio>
