@@ -32,7 +32,7 @@ const winningConditions = [
 
 function handleResultValidation() {
     let roundWon = false;
-    for (let i = 0; i <= 11; i++) {
+    for (let i = 0; i <= 13; i++) {
         const winCondition = winningConditions[i];
         const a = board[winCondition[0]];
         const b = board[winCondition[1]];
