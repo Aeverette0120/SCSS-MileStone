@@ -78,3 +78,7 @@ font-weight: bolder;
     margin-left: 1em;
     cursor: pointer;
 };
+
+#gameTimer {
+    color: red;
+}
