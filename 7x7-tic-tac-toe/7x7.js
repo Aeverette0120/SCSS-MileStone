@@ -27,12 +27,14 @@ const winningConditions = [
     [3,  10, 17, 24, 31, 38, 45],
     [4, 11, 18, 25, 32, 39, 46],
     [5, 12, 19, 26, 33, 40, 47],
-    [6, 13, 20, 27, 34, 41, 48]
+    [6, 13, 20, 27, 34, 41, 48],
+    [0, 8, 16, 24, 32, 40, 48],
+    [6, 12, 18, 24, 30, 36, 42]
 ];
 
 function handleResultValidation() {
     let roundWon = false;
-    for (let i = 0; i <= 13; i++) {
+    for (let i = 0; i <= 15; i++) {
         const winCondition = winningConditions[i];
         const a = board[winCondition[0]];
         const b = board[winCondition[1]];
