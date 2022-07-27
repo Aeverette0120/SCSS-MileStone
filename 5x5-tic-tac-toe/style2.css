@@ -2,7 +2,7 @@
     padding: 0;
     margin:0;
     font-family: 'Wallpoet', cursive;
-    Color: Red;
+    Color: rgb(175, 7, 175);
     font-weight: bolder;
     
     }
@@ -19,7 +19,7 @@
         text-align: center;
         font-size: 40px;
         margin-top: 10%;
-        border: 5px solid red;
+        border: 5px solid rgb(175, 7, 175);
     }
     
     .display {
@@ -58,7 +58,7 @@
     }
     
     .playerX {
-        color:red
+        color:rgb(175, 7, 175)
     }
     
     .playerO {
@@ -75,7 +75,7 @@
     
     #reset {
         background: white;
-        color: red;
+        color: rgb(175, 7, 175);
         padding: 8px;
         border-radius: 8px;
         border: none;
