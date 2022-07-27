@@ -2,14 +2,14 @@
     padding: 0;
     margin:0;
     font-family: 'Wallpoet', cursive;
-    Color: Red;
+    Color: rgb(0, 199, 0);
     font-weight: bolder;
     
     }
     
     
     #Space-img {
-        background-image: url("../assets/images/OuterSpace.jpg") ;
+        background-image: url("../assets/images/galacticPicture.jpg") ;
         height:160vh;
         padding-top:1px;
     }
@@ -19,7 +19,7 @@
         text-align: center;
         font-size: 40px;
         margin-top: 10%;
-        border: 5px solid red;
+        border: 5px solid rgb(0, 199, 0);
     }
     
     .display {
@@ -58,7 +58,7 @@
     }
     
     .playerX {
-        color:red
+        color:rgb(0, 199, 0);
     }
     
     .playerO {
@@ -75,7 +75,7 @@
     
     #reset {
         background: white;
-        color: red;
+        color: rgb(0, 199, 0);
         padding: 8px;
         border-radius: 8px;
         border: none;
