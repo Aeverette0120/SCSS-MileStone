@@ -19,6 +19,10 @@ function countdown() {
     }
 }
 
+function doSomething() {
+    alert("Times up GameOver")
+}
+
 let board = ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','',''];
 let currentPlayer = 'X';
 let isGameActive = true;
